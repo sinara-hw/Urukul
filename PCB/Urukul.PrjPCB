@@ -472,10 +472,10 @@ Variation204=Designator=R8A|UniqueId=\CRRIXVEK\QMCUOGJS|Kind=1|AlternatePart=
 Variation205=Designator=R8B|UniqueId=\GEOSQBAC\QMCUOGJS|Kind=1|AlternatePart= 
 Variation206=Designator=R8C|UniqueId=\AMPHYOUH\QMCUOGJS|Kind=1|AlternatePart= 
 Variation207=Designator=R8D|UniqueId=\RHJTULWQ\QMCUOGJS|Kind=1|AlternatePart= 
-Variation208=Designator=R48A|UniqueId=\CRRIXVEK\QCUWBDOG|Kind=1|AlternatePart= 
-Variation209=Designator=R49A|UniqueId=\CRRIXVEK\IXJXGSES|Kind=1|AlternatePart= 
-Variation210=Designator=R50A|UniqueId=\CRRIXVEK\AYOXPCBP|Kind=1|AlternatePart= 
-Variation211=Designator=R51A|UniqueId=\CRRIXVEK\HKXVQMKY|Kind=1|AlternatePart= 
+Variation208=Designator=R48A|UniqueId=\CRRIXVEK\QCUWBDOG|Kind=0|AlternatePart= 
+Variation209=Designator=R49A|UniqueId=\CRRIXVEK\IXJXGSES|Kind=0|AlternatePart= 
+Variation210=Designator=R50A|UniqueId=\CRRIXVEK\AYOXPCBP|Kind=0|AlternatePart= 
+Variation211=Designator=R51A|UniqueId=\CRRIXVEK\HKXVQMKY|Kind=0|AlternatePart= 
 Variation212=Designator=R113A|UniqueId=\MXBKQYLN\YNVQXLEB|Kind=1|AlternatePart= 
 Variation213=Designator=C44A|UniqueId=\MXBKQYLN\QSKTGYYX|Kind=1|AlternatePart= 
 Variation214=Designator=C30A|UniqueId=\MXBKQYLN\GIAHSUYH|Kind=1|AlternatePart= 
