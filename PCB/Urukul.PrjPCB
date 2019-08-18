@@ -12,7 +12,7 @@ SeparateFolders=0
 TemplateLocationPath=
 PinSwapBy_Netlabel=1
 PinSwapBy_Pin=0
-AllowPortNetNames=0
+AllowPortNetNames=1
 AllowSheetEntryNetNames=1
 AppendSheetNumberToLocalNets=0
 NetlistSinglePinNets=0
@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=
+OutputPath=Project Outputs for Urukul
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -263,7 +263,7 @@ UniqueID=5014FADA-78CE-42B7-BEF1-27D882D7ECD8
 Description=AD9912
 AllowFabrication=0
 ParameterCount=0
-VariationCount=267
+VariationCount=303
 Variation1=Designator=C43B|UniqueId=\UCYIPTSN\LKDMCPHH|Kind=1|AlternatePart= 
 Variation2=Designator=C105D|UniqueId=\TEFEPBKP\UXVNVEJB|Kind=1|AlternatePart= 
 Variation3=Designator=C43D|UniqueId=\TEFEPBKP\LKDMCPHH|Kind=1|AlternatePart= 
@@ -531,6 +531,42 @@ Variation264=Designator=R17|UniqueId=\JBOQDPNK\TUAKSKUV|Kind=0|AlternatePart=
 Variation265=Designator=R22|UniqueId=\JBOQDPNK\DDFKYGWS|Kind=1|AlternatePart= 
 Variation266=Designator=R148|UniqueId=\EXDPRCSK\VEHMMABC|Kind=1|AlternatePart= 
 Variation267=Designator=L9|UniqueId=\JBOQDPNK\GOQQAGGY|Kind=0|AlternatePart= 
+Variation268=Designator=OSC?|UniqueId=\JBOQDPNK\CHFSBJIB|Kind=1|AlternatePart= 
+Variation269=Designator=CLIP1|UniqueId=\BVCNUJUP|Kind=1|AlternatePart= 
+Variation270=Designator=CLIP2|UniqueId=\OMTYBSKL|Kind=1|AlternatePart= 
+Variation271=Designator=CLIP3|UniqueId=\WBOCEAXM|Kind=1|AlternatePart= 
+Variation272=Designator=CLIP4|UniqueId=\JMFHVCVS|Kind=1|AlternatePart= 
+Variation273=Designator=CLIP5|UniqueId=\AGBMNSOC|Kind=1|AlternatePart= 
+Variation274=Designator=CLIP30|UniqueId=\QDSWPAVV|Kind=1|AlternatePart= 
+Variation275=Designator=CLIP31|UniqueId=\KXLPMGGB|Kind=1|AlternatePart= 
+Variation276=Designator=CLIP27|UniqueId=\CVPWHKKL|Kind=1|AlternatePart= 
+Variation277=Designator=CLIP10|UniqueId=\XWQDIFJW|Kind=1|AlternatePart= 
+Variation278=Designator=CLIP9|UniqueId=\ESUAXGPQ|Kind=1|AlternatePart= 
+Variation279=Designator=CLIP8|UniqueId=\RGVPSDUV|Kind=1|AlternatePart= 
+Variation280=Designator=CLIP7|UniqueId=\CBUQLPEY|Kind=1|AlternatePart= 
+Variation281=Designator=CLIP6|UniqueId=\WTLHNFMU|Kind=1|AlternatePart= 
+Variation282=Designator=CLIP11|UniqueId=\GHEAORTN|Kind=1|AlternatePart= 
+Variation283=Designator=CLIP12|UniqueId=\NVAYOOED|Kind=1|AlternatePart= 
+Variation284=Designator=CLIP13|UniqueId=\MDVKBPWB|Kind=1|AlternatePart= 
+Variation285=Designator=CLIP14|UniqueId=\WSQVHDTE|Kind=1|AlternatePart= 
+Variation286=Designator=CLIP15|UniqueId=\FSRWTIBC|Kind=1|AlternatePart= 
+Variation287=Designator=CLIP28|UniqueId=\XLFANNKP|Kind=1|AlternatePart= 
+Variation288=Designator=CLIP29|UniqueId=\FJCQRXUB|Kind=1|AlternatePart= 
+Variation289=Designator=CLIP20|UniqueId=\SMTDHPVE|Kind=1|AlternatePart= 
+Variation290=Designator=CLIP19|UniqueId=\ODBUXNGG|Kind=1|AlternatePart= 
+Variation291=Designator=CLIP18|UniqueId=\BAWHSBSJ|Kind=1|AlternatePart= 
+Variation292=Designator=CLIP17|UniqueId=\ADDSYWPY|Kind=1|AlternatePart= 
+Variation293=Designator=CLIP16|UniqueId=\HBYARUSV|Kind=1|AlternatePart= 
+Variation294=Designator=CLIP21|UniqueId=\YDPKEUID|Kind=1|AlternatePart= 
+Variation295=Designator=CLIP22|UniqueId=\ISKDHWNA|Kind=1|AlternatePart= 
+Variation296=Designator=CLIP23|UniqueId=\MFTUBJTJ|Kind=1|AlternatePart= 
+Variation297=Designator=CLIP24|UniqueId=\QLHXMOUG|Kind=1|AlternatePart= 
+Variation298=Designator=CLIP25|UniqueId=\HSFJLMAK|Kind=1|AlternatePart= 
+Variation299=Designator=CLIP26|UniqueId=\VBJFDIKN|Kind=1|AlternatePart= 
+Variation300=Designator=FTG1|UniqueId=\NKRWYRVR|Kind=1|AlternatePart= 
+Variation301=Designator=FTG2|UniqueId=\WVWWTJFT|Kind=1|AlternatePart= 
+Variation302=Designator=FTG3|UniqueId=\RGLGYWSD|Kind=1|AlternatePart= 
+Variation303=Designator=FTG4|UniqueId=\OVLVKYTT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -538,7 +574,7 @@ UniqueID=FEAE5F34-7034-4CF5-B6A8-CC3177A39812
 Description=AD9910
 AllowFabrication=0
 ParameterCount=0
-VariationCount=280
+VariationCount=318
 Variation1=Designator=C103|UniqueId=\JBOQDPNK\CFHUVRPI|Kind=0|AlternatePart= 
 Variation2=Designator=R4A|UniqueId=\CRRIXVEK\FDVGYVWU|Kind=1|AlternatePart= 
 Variation3=Designator=R3A|UniqueId=\CRRIXVEK\WULNPYDO|Kind=1|AlternatePart= 
@@ -819,6 +855,44 @@ Variation277=Designator=R95|UniqueId=\JBOQDPNK\JJFNNYKU|Kind=1|AlternatePart=
 Variation278=Designator=R101|UniqueId=\JBOQDPNK\AHAECWTY|Kind=1|AlternatePart= 
 Variation279=Designator=R102|UniqueId=\JBOQDPNK\WBCERLAU|Kind=1|AlternatePart= 
 Variation280=Designator=L9|UniqueId=\JBOQDPNK\GOQQAGGY|Kind=0|AlternatePart= 
+Variation281=Designator=OSC?|UniqueId=\JBOQDPNK\CHFSBJIB|Kind=1|AlternatePart= 
+Variation282=Designator=CLIP1|UniqueId=\BVCNUJUP|Kind=1|AlternatePart= 
+Variation283=Designator=CLIP2|UniqueId=\OMTYBSKL|Kind=1|AlternatePart= 
+Variation284=Designator=CLIP3|UniqueId=\WBOCEAXM|Kind=1|AlternatePart= 
+Variation285=Designator=CLIP4|UniqueId=\JMFHVCVS|Kind=1|AlternatePart= 
+Variation286=Designator=CLIP5|UniqueId=\AGBMNSOC|Kind=1|AlternatePart= 
+Variation287=Designator=CLIP30|UniqueId=\QDSWPAVV|Kind=1|AlternatePart= 
+Variation288=Designator=CLIP31|UniqueId=\KXLPMGGB|Kind=1|AlternatePart= 
+Variation289=Designator=CLIP27|UniqueId=\CVPWHKKL|Kind=1|AlternatePart= 
+Variation290=Designator=CLIP10|UniqueId=\XWQDIFJW|Kind=1|AlternatePart= 
+Variation291=Designator=CLIP9|UniqueId=\ESUAXGPQ|Kind=1|AlternatePart= 
+Variation292=Designator=CLIP8|UniqueId=\RGVPSDUV|Kind=1|AlternatePart= 
+Variation293=Designator=CLIP7|UniqueId=\CBUQLPEY|Kind=1|AlternatePart= 
+Variation294=Designator=CLIP6|UniqueId=\WTLHNFMU|Kind=1|AlternatePart= 
+Variation295=Designator=CLIP11|UniqueId=\GHEAORTN|Kind=1|AlternatePart= 
+Variation296=Designator=CLIP12|UniqueId=\NVAYOOED|Kind=1|AlternatePart= 
+Variation297=Designator=CLIP13|UniqueId=\MDVKBPWB|Kind=1|AlternatePart= 
+Variation298=Designator=CLIP14|UniqueId=\WSQVHDTE|Kind=1|AlternatePart= 
+Variation299=Designator=CLIP15|UniqueId=\FSRWTIBC|Kind=1|AlternatePart= 
+Variation300=Designator=CLIP28|UniqueId=\XLFANNKP|Kind=1|AlternatePart= 
+Variation301=Designator=CLIP29|UniqueId=\FJCQRXUB|Kind=1|AlternatePart= 
+Variation302=Designator=CLIP20|UniqueId=\SMTDHPVE|Kind=1|AlternatePart= 
+Variation303=Designator=CLIP19|UniqueId=\ODBUXNGG|Kind=1|AlternatePart= 
+Variation304=Designator=CLIP18|UniqueId=\BAWHSBSJ|Kind=1|AlternatePart= 
+Variation305=Designator=CLIP17|UniqueId=\ADDSYWPY|Kind=1|AlternatePart= 
+Variation306=Designator=CLIP16|UniqueId=\HBYARUSV|Kind=1|AlternatePart= 
+Variation307=Designator=CLIP21|UniqueId=\YDPKEUID|Kind=1|AlternatePart= 
+Variation308=Designator=CLIP22|UniqueId=\ISKDHWNA|Kind=1|AlternatePart= 
+Variation309=Designator=CLIP23|UniqueId=\MFTUBJTJ|Kind=1|AlternatePart= 
+Variation310=Designator=CLIP24|UniqueId=\QLHXMOUG|Kind=1|AlternatePart= 
+Variation311=Designator=CLIP25|UniqueId=\HSFJLMAK|Kind=1|AlternatePart= 
+Variation312=Designator=CLIP26|UniqueId=\VBJFDIKN|Kind=1|AlternatePart= 
+Variation313=Designator=C113|UniqueId=\DXKJPGUN|Kind=1|AlternatePart= 
+Variation314=Designator=C121|UniqueId=\OAVKPTVF|Kind=1|AlternatePart= 
+Variation315=Designator=FTG1|UniqueId=\NKRWYRVR|Kind=1|AlternatePart= 
+Variation316=Designator=FTG2|UniqueId=\WVWWTJFT|Kind=1|AlternatePart= 
+Variation317=Designator=FTG3|UniqueId=\RGLGYWSD|Kind=1|AlternatePart= 
+Variation318=Designator=FTG4|UniqueId=\OVLVKYTT|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -827,6 +901,14 @@ DItemRevisionGUID=
 
 [GeneratedDocument2]
 DocumentPath=Project Outputs for Urukul\Panel\AutoCAD PCB\Panel_Urukul.DXF
+DItemRevisionGUID=
+
+[GeneratedDocument3]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\ProD89D.xls
+DItemRevisionGUID=
+
+[GeneratedDocument4]
+DocumentPath=C:\Users\gkasp\AppData\Local\Temp\ProEA1E.xls
 DItemRevisionGUID=
 
 [Configuration1]
@@ -882,7 +964,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Urukul
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -989,42 +1071,12 @@ OutputName20=WireList Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=XSpice Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
-OutputType22=SIMetrixNetlist
-OutputName22=SIMetrix
-OutputDocumentPath22=
-OutputVariantName22=
-OutputDefault22=0
-OutputType23=SIMPLISNetlist
-OutputName23=SIMPLIS
-OutputDocumentPath23=
-OutputVariantName23=
-OutputDefault23=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=HP-LAB230 (HP LaserJet M1536dnf MFP)
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
-OutputType2=SIMetrixSimulation
-OutputName2=SIMetrix
-OutputDocumentPath2=
-OutputVariantName2=
-OutputDefault2=0
-OutputType3=SIMPLISSimulation
-OutputName3=SIMPLIS
-OutputDocumentPath3=
-OutputVariantName3=
-OutputDefault3=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -1441,6 +1493,11 @@ OutputName6=Environment configuration compliance check
 OutputDocumentPath6=
 OutputVariantName6=
 OutputDefault6=0
+OutputType7=BOM_Violations
+OutputName7=BOM Checks Report
+OutputDocumentPath7=
+OutputVariantName7=
+OutputDefault7=0
 
 [OutputGroup9]
 Name=Export Outputs
@@ -1492,11 +1549,21 @@ OutputName9=Specctra Design PCB
 OutputDocumentPath9=
 OutputVariantName9=
 OutputDefault9=0
+OutputType10=MBAExportPARASOLID
+OutputName10=Export PARASOLID
+OutputDocumentPath10=
+OutputVariantName10=
+OutputDefault10=0
+OutputType11=MBAExportSTEP
+OutputName11=Export STEP
+OutputDocumentPath11=
+OutputVariantName11=
+OutputDefault11=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
 Description=
-TargetPrinter=HP LaserJet M1530 MFP Series PCL 6
+TargetPrinter=Brother DCP-J315W Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 OutputType1=Copy Files
 OutputName1=Copy Files
@@ -1621,6 +1688,7 @@ Type113=1
 Type114=1
 Type115=1
 Type116=1
+Type117=1
 
 [Difference Levels]
 Type1=1
@@ -1666,7 +1734,7 @@ Type40=1
 Type41=1
 Type42=1
 Type43=1
-Type44=0
+Type44=1
 Type45=1
 Type46=1
 Type47=1
@@ -1688,6 +1756,7 @@ Type62=1
 Type63=1
 Type64=1
 Type65=1
+Type66=1
 
 [Electrical Rules Check]
 Type1=1
@@ -1872,6 +1941,29 @@ UpdateCurrentModels=1
 SelectedOnly=0
 UpdateVariants=1
 PartTypes=0
+
+[NetInfos]
+Net1=NetName=P1V8_DACCLK|NetColor=$00FF6EFF
+Net2=NetName=NetL9_2|NetColor=$006EFF6E
+Net3=NetName=NetC91_2|NetColor=$006EFF6E
+Net4=NetName=P1V8_CLK_VDD|NetColor=$00FF6EFF
+Net5=NetName=NetC101_2|NetColor=$006EFF6E
+Net6=NetName=P3V3_MP|NetColor=$006EFF6E
+Net7=NetName=P3V3|NetColor=$006EFF6E
+Net8=NetName=P3V3_DAC|NetColor=$006EFF6E
+Net9=NetName=P1V8A|NetColor=$00FF6EFF
+Net10=NetName=GND|NetColor=clMaroon
+Net11=NetName=NetC123_2|NetColor=$006EFF6E
+Net12=NetName=P7V0A|NetColor=$0000BE00
+Net13=NetName=P1V8D|NetColor=$00FF6EFF
+Net14=NetName=P1V8_DVDD|NetColor=$00FF6EFF
+Net15=NetName=P3V3A|NetColor=$006EFF6E
+Net16=NetName=P1V8_AVDD|NetColor=$00FF6EFF
+Net17=NetName=P12V0|NetColor=$00FFFF6E
+Net18=NetName=P1V8_DACDEC|NetColor=$00FF6EFF
+Net19=NetName=P5V0A|NetColor=clYellow
+Net20=NetName=P3V3_DRV|NetColor=$006EFF6E
+Net21=NetName=P1V8_DRV|NetColor=$00FF6EFF
 
 [Comparison Options]
 ComparisonOptions0=Kind=Net|MinPercent=75|MinMatch=3|ShowMatch=-1|Confirm=-1|UseName=-1|InclAllRules=0
