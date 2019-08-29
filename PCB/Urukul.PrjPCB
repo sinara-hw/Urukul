@@ -28,7 +28,7 @@ DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
-OutputPath=Project Outputs for Urukul
+OutputPath=
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -903,14 +903,6 @@ DItemRevisionGUID=
 DocumentPath=Project Outputs for Urukul\Panel\AutoCAD PCB\Panel_Urukul.DXF
 DItemRevisionGUID=
 
-[GeneratedDocument3]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\ProD89D.xls
-DItemRevisionGUID=
-
-[GeneratedDocument4]
-DocumentPath=C:\Users\gkasp\AppData\Local\Temp\ProEA1E.xls
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -964,7 +956,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=Project Outputs for Urukul
+OutputDir=
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1952,8 +1944,8 @@ Net6=NetName=P3V3_MP|NetColor=$006EFF6E
 Net7=NetName=P3V3|NetColor=$006EFF6E
 Net8=NetName=P3V3_DAC|NetColor=$006EFF6E
 Net9=NetName=P1V8A|NetColor=$00FF6EFF
-Net10=NetName=GND|NetColor=clMaroon
-Net11=NetName=NetC123_2|NetColor=$006EFF6E
+Net10=NetName=NetC123_2|NetColor=$006EFF6E
+Net11=NetName=GND|NetColor=clMaroon
 Net12=NetName=P7V0A|NetColor=$0000BE00
 Net13=NetName=P1V8D|NetColor=$00FF6EFF
 Net14=NetName=P1V8_DVDD|NetColor=$00FF6EFF
