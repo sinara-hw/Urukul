@@ -929,18 +929,6 @@ Variation320=Designator=TR6|UniqueId=\MFTVPWDE|Kind=1|AlternatePart=
 Variation321=Designator=TR7|UniqueId=\HPGNLWBN|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Urukul\Design Rule Check - Urukul.html
-DItemRevisionGUID=
-
-[GeneratedDocument2]
-DocumentPath=Project Outputs for Urukul\Panel_9912\ExportIDF\Panel_Urukul_9912.brd
-DItemRevisionGUID=
-
-[GeneratedDocument3]
-DocumentPath=Project Outputs for Urukul\Panel_9912\AutoCAD PCB\Panel_Urukul_9912.DXF
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
@@ -1972,8 +1960,8 @@ Net6=NetName=P3V3_MP|NetColor=$006EFF6E
 Net7=NetName=P3V3|NetColor=$006EFF6E
 Net8=NetName=P3V3_DAC|NetColor=$006EFF6E
 Net9=NetName=P1V8A|NetColor=$00FF6EFF
-Net10=NetName=NetC123_2|NetColor=$006EFF6E
-Net11=NetName=GND|NetColor=clMaroon
+Net10=NetName=GND|NetColor=clMaroon
+Net11=NetName=NetC123_2|NetColor=$006EFF6E
 Net12=NetName=P7V0A|NetColor=$0000BE00
 Net13=NetName=P1V8D|NetColor=$00FF6EFF
 Net14=NetName=P1V8_DVDD|NetColor=$00FF6EFF
