@@ -30,7 +30,7 @@ ReportSuppressedErrorsInMessages=0
 FSMCodingStyle=eFMSDropDownList_OneProcess
 FSMEncodingStyle=eFMSDropDownList_OneHot
 IsProjectConflictPreventionWarningsEnabled=1
-OutputPath=
+OutputPath=Project Outputs for Urukul
 LogFolderPath=
 ManagedProjectGUID=
 IncludeDesignInRelease=0
@@ -299,7 +299,7 @@ UniqueID=5014FADA-78CE-42B7-BEF1-27D882D7ECD8
 Description=AD9912
 AllowFabrication=0
 ParameterCount=0
-VariationCount=303
+VariationCount=307
 Variation1=Designator=C43B|UniqueId=\UCYIPTSN\LKDMCPHH|Kind=1|AlternatePart= 
 Variation2=Designator=C105D|UniqueId=\TEFEPBKP\UXVNVEJB|Kind=1|AlternatePart= 
 Variation3=Designator=C43D|UniqueId=\TEFEPBKP\LKDMCPHH|Kind=1|AlternatePart= 
@@ -603,6 +603,10 @@ Variation300=Designator=C121|UniqueId=\OAVKPTVF|Kind=1|AlternatePart=
 Variation301=Designator=C213|UniqueId=\JBOQDPNK\UZCGNQTP|Kind=1|AlternatePart= 
 Variation302=Designator=C214|UniqueId=\JBOQDPNK\IDGKBTEB|Kind=1|AlternatePart= 
 Variation303=Designator=J10|UniqueId=\JBOQDPNK\XDLAMUTG|Kind=1|AlternatePart= 
+Variation304=Designator=TR8A|UniqueId=\CRRIXVEK\UCFYFRFW|Kind=1|AlternatePart= 
+Variation305=Designator=TR8B|UniqueId=\GEOSQBAC\UCFYFRFW|Kind=1|AlternatePart= 
+Variation306=Designator=TR8C|UniqueId=\AMPHYOUH\UCFYFRFW|Kind=1|AlternatePart= 
+Variation307=Designator=TR8D|UniqueId=\RHJTULWQ\UCFYFRFW|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -950,6 +954,10 @@ DocumentPath=Project Outputs for Urukul\Panel_9910\AutoCAD PCB\Panel_Urukul_9910
 DItemRevisionGUID=
 
 [GeneratedDocument3]
+DocumentPath=C:\Users\Admin\AppData\Local\Temp\Pro8255.xls
+DItemRevisionGUID=
+
+[GeneratedDocument4]
 DocumentPath=Project Outputs for Urukul\Panel_9910\ExportSTEP\Urukul.step
 DItemRevisionGUID=
 
@@ -1006,7 +1014,7 @@ SCH_HasExpandLogicalToPhysicalSheets=-1
 SaveSettingsToOutJob=-1
 
 [Generic_EDE]
-OutputDir=
+OutputDir=Project Outputs for Urukul
 
 [OutputGroup1]
 Name=Netlist Outputs
@@ -1117,7 +1125,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=Microsoft Print to PDF
+TargetPrinter=Brother DCP-L2540DN series
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1322,6 +1330,18 @@ OutputName6=Script Output
 OutputDocumentPath6=
 OutputVariantName6=[No Variations]
 OutputDefault6=0
+OutputType7=BOM_ReportCompare
+OutputName7=BOM Compare
+OutputDocumentPath7=
+OutputVariantName7=[No Variations]
+OutputDefault7=0
+PageOptions7=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
+OutputType8=Export Comments
+OutputName8=Export Comments
+OutputDocumentPath8=
+OutputVariantName8=[No Variations]
+OutputDefault8=0
+PageOptions8=Record=PageOptions|CenterHorizontal=True|CenterVertical=True|PrintScale=1.00|XCorrection=1.00|YCorrection=1.00|PrintKind=1|BorderSize=5000000|LeftOffset=0|BottomOffset=0|Orientation=2|PaperLength=1000|PaperWidth=1000|Scale=100|PaperSource=7|PrintQuality=-3|MediaType=1|DitherType=10|PrintScaleMode=1|PaperKind=A4|PaperIndex=9
 
 [OutputGroup7]
 Name=Other Outputs
@@ -1540,36 +1560,16 @@ OutputName12=Ansoft Neutral (AutoPCB)
 OutputDocumentPath12=
 OutputVariantName12=
 OutputDefault12=0
-OutputType13=AnsysEDB
-OutputName13=Ansys EDB
+OutputType13=HyperLynx
+OutputName13=HyperLynx (AutoPCB)
 OutputDocumentPath13=
 OutputVariantName13=
 OutputDefault13=0
-OutputType14=HyperLynx
-OutputName14=HyperLynx (AutoPCB)
+OutputType14=SiSoft
+OutputName14=SiSoft (AutoPCB)
 OutputDocumentPath14=
 OutputVariantName14=
 OutputDefault14=0
-OutputType15=Orcad v7 Capture Design
-OutputName15=Orcad v7 Capture Design (AutoSCH)
-OutputDocumentPath15=
-OutputVariantName15=
-OutputDefault15=0
-OutputType16=P-CAD ASCII
-OutputName16=P-CAD ASCII (AutoPCB)
-OutputDocumentPath16=
-OutputVariantName16=
-OutputDefault16=0
-OutputType17=P-CAD V16 Schematic Design
-OutputName17=P-CAD V16 Schematic Design (AutoSCH)
-OutputDocumentPath17=
-OutputVariantName17=
-OutputDefault17=0
-OutputType18=SiSoft
-OutputName18=SiSoft (AutoPCB)
-OutputDocumentPath18=
-OutputVariantName18=
-OutputDefault18=0
 
 [OutputGroup10]
 Name=PostProcess Outputs
