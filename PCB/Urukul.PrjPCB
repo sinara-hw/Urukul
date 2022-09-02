@@ -25,6 +25,7 @@ NameNetsHierarchically=0
 PowerPortNamesTakePriority=0
 AutoSheetNumbering=0
 AutoCrossReferences=0
+NewIndexingOfSheetSymbols=0
 PushECOToAnnotationFile=1
 DItemRevisionGUID=
 ReportSuppressedErrorsInMessages=0
@@ -41,6 +42,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
+CurrentVariant=AD9910
 
 [Preferences]
 PrefsVaultGUID=
@@ -306,7 +308,7 @@ UniqueID=5014FADA-78CE-42B7-BEF1-27D882D7ECD8
 Description=AD9912
 AllowFabrication=0
 ParameterCount=0
-VariationCount=308
+VariationCount=316
 Variation1=Designator=C43B|UniqueId=\UCYIPTSN\LKDMCPHH|Kind=1|AlternatePart= 
 Variation2=Designator=C105D|UniqueId=\TEFEPBKP\UXVNVEJB|Kind=1|AlternatePart= 
 Variation3=Designator=C43D|UniqueId=\TEFEPBKP\LKDMCPHH|Kind=1|AlternatePart= 
@@ -615,6 +617,14 @@ Variation305=Designator=C50A|UniqueId=\CRRIXVEK\DFAWLCOM|Kind=1|AlternatePart=
 Variation306=Designator=C50C|UniqueId=\AMPHYOUH\DFAWLCOM|Kind=1|AlternatePart= 
 Variation307=Designator=C50D|UniqueId=\RHJTULWQ\DFAWLCOM|Kind=1|AlternatePart= 
 Variation308=Designator=R193|UniqueId=\TAKSADSN\EBFZCHYU|Kind=1|AlternatePart= 
+Variation309=Designator=IC22|UniqueId=\TAKSADSN\SUFUDPWB|Kind=1|AlternatePart= 
+Variation310=Designator=R134|UniqueId=\TAKSADSN\CEFPBWWK|Kind=1|AlternatePart= 
+Variation311=Designator=R136|UniqueId=\TAKSADSN\NILRDLKB|Kind=1|AlternatePart= 
+Variation312=Designator=C139|UniqueId=\TAKSADSN\BYVQCJTU|Kind=1|AlternatePart= 
+Variation313=Designator=R166|UniqueId=\TAKSADSN\FTRJQJPB|Kind=1|AlternatePart= 
+Variation314=Designator=C170|UniqueId=\TAKSADSN\XJMKVLNA|Kind=0|AlternatePart= 
+Variation315=Designator=IC26A|UniqueId=\IDVNPMOJ\NOADFQDZ|Kind=1|AlternatePart= 
+Variation316=Designator=IC26B|UniqueId=\VYAXEVJO\NOADFQDZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [ProjectVariant2]
@@ -622,7 +632,7 @@ UniqueID=FEAE5F34-7034-4CF5-B6A8-CC3177A39812
 Description=AD9910
 AllowFabrication=0
 ParameterCount=0
-VariationCount=333
+VariationCount=341
 Variation1=Designator=R4A|UniqueId=\CRRIXVEK\FDVGYVWU|Kind=1|AlternatePart= 
 Variation2=Designator=R3A|UniqueId=\CRRIXVEK\WULNPYDO|Kind=1|AlternatePart= 
 Variation3=Designator=C164A|UniqueId=\CRRIXVEK\CRXUIYEW|Kind=1|AlternatePart= 
@@ -956,6 +966,14 @@ Variation330=Designator=C50C|UniqueId=\AMPHYOUH\DFAWLCOM|Kind=1|AlternatePart=
 Variation331=Designator=C50B|UniqueId=\GEOSQBAC\DFAWLCOM|Kind=1|AlternatePart= 
 Variation332=Designator=C50A|UniqueId=\CRRIXVEK\DFAWLCOM|Kind=1|AlternatePart= 
 Variation333=Designator=R193|UniqueId=\TAKSADSN\EBFZCHYU|Kind=1|AlternatePart= 
+Variation334=Designator=IC22|UniqueId=\TAKSADSN\SUFUDPWB|Kind=1|AlternatePart= 
+Variation335=Designator=C139|UniqueId=\TAKSADSN\BYVQCJTU|Kind=1|AlternatePart= 
+Variation336=Designator=R134|UniqueId=\TAKSADSN\CEFPBWWK|Kind=1|AlternatePart= 
+Variation337=Designator=R136|UniqueId=\TAKSADSN\NILRDLKB|Kind=1|AlternatePart= 
+Variation338=Designator=R166|UniqueId=\TAKSADSN\FTRJQJPB|Kind=1|AlternatePart= 
+Variation339=Designator=C170|UniqueId=\TAKSADSN\XJMKVLNA|Kind=0|AlternatePart= 
+Variation340=Designator=IC26B|UniqueId=\VYAXEVJO\NOADFQDZ|Kind=1|AlternatePart= 
+Variation341=Designator=IC26A|UniqueId=\IDVNPMOJ\NOADFQDZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
 [GeneratedDocument1]
@@ -1126,7 +1144,7 @@ OutputDefault20=0
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
-TargetPrinter=hp deskjet 920c
+TargetPrinter=Brother DCP-1610W series Printer
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
 
 [OutputGroup3]
@@ -1885,6 +1903,7 @@ Type122=2
 Type123=1
 Type124=1
 Type125=1
+Type126=1
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNWW
