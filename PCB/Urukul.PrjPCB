@@ -977,10 +977,6 @@ Variation340=Designator=IC26B|UniqueId=\VYAXEVJO\NOADFQDZ|Kind=1|AlternatePart=
 Variation341=Designator=IC26A|UniqueId=\IDVNPMOJ\NOADFQDZ|Kind=1|AlternatePart= 
 ParamVariationCount=0
 
-[GeneratedDocument1]
-DocumentPath=Project Outputs for Urukul\Design Rule Check - Urukul.html
-DItemRevisionGUID=
-
 [Configuration1]
 Name=Default Configuration
 ParameterCount=0
