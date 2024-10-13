@@ -43,7 +43,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=DIOT_AD9910
+CurrentVariant=EEM_AD9912
 
 [Preferences]
 PrefsVaultGUID=
@@ -390,7 +390,7 @@ GenerateClassCluster=0
 DocumentUniqueId=RGNJYCWR
 
 [Document21]
-DocumentPath=Regulators.SchLib
+DocumentPath=Urukul.OutJob
 AnnotationEnabled=1
 AnnotateStartValue=1
 AnnotationIndexControlEnabled=0
@@ -404,7 +404,7 @@ ClassGenCCAutoRoomEnabled=1
 ClassGenNCAutoScope=None
 DItemRevisionGUID=
 GenerateClassCluster=0
-DocumentUniqueId=ERXAVKCU
+DocumentUniqueId=
 
 [ProjectVariant1]
 UniqueID=FEAE5F34-7034-4CF5-B6A8-CC3177A39812
