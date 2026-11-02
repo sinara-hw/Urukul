@@ -645,6 +645,23 @@ DItemRevisionGUID=
 GenerateClassCluster=0
 DocumentUniqueId=
 
+[Document36]
+DocumentPath=SCH\PG_Logic.SchDoc
+AnnotationEnabled=1
+AnnotateStartValue=1
+AnnotationIndexControlEnabled=0
+AnnotateSuffix=
+AnnotateScope=All
+AnnotateOrder=52
+DoLibraryUpdate=1
+DoDatabaseUpdate=1
+ClassGenCCAutoEnabled=1
+ClassGenCCAutoRoomEnabled=0
+ClassGenNCAutoScope=None
+DItemRevisionGUID=
+GenerateClassCluster=0
+DocumentUniqueId=RGPNTOQD
+
 [ProjectVariant1]
 UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM_AD9910
@@ -5026,32 +5043,32 @@ Variation369=Designator=R281|UniqueId=\BTRXFAHV\QCLVKXGK\NQKXTZKS|Kind=1|Alterna
 ParamVariationCount=321
 
 [Parameter1]
-Name=P_version
-Value=2.0
+Name=P_copyright_owner
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Parameter2]
-Name=P_template_version
-Value=1.4
+Name=P_github_link
+Value=https://github.com/sinara-hw/Urukul
 
 [Parameter3]
-Name=P_release_reviewers
-Value=Marta Fąfara (TS), Maciej Przybysz (TS)
+Name=P_release_designers
+Value=Krzysztof Belewicz (WUT), Marta Fąfara (TS)
 
 [Parameter4]
 Name=P_release_owner
 Value=Mikołaj Sowiński (TS)
 
 [Parameter5]
-Name=P_release_designers
-Value=Krzysztof Belewicz (WUT), Marta Fąfara (TS)
+Name=P_release_reviewers
+Value=Marta Fąfara (TS), Maciej Przybysz (TS)
 
 [Parameter6]
-Name=P_github_link
-Value=https://github.com/sinara-hw/Urukul
+Name=P_template_version
+Value=1.4
 
 [Parameter7]
-Name=P_copyright_owner
-Value=WUT ISE 2024-2025 · Technosystem 2025-2026
+Name=P_version
+Value=2.0
 
 [Configuration1]
 Name=Sources
