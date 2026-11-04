@@ -4,6 +4,23 @@ All notable changes to the Urukul-DIOT are documented in this file.
 
 ## v2.0
 
+**Release owner:** Mikołaj Sowiński (TS)
+
+**Designers:** 
+- Krzysztof Belewicz (ISE WUT)
+- Marta Fąfara (TS)
+
+**Reviewers:** 
+- Maciej Przybysz (TS)
+- Marta Fąfara (TS)
+
+**Contributors:** 
+- Mikołaj Sowiński (TS)
+
+**Funded by:** 
+- TechnoSystem
+
+
 All schematic files updated according to DIOT template.
 Change list in respect to the previous revision:
 
@@ -145,29 +162,12 @@ T_R6/T_R9 (R0402_1K6_1%_0.0625W_100PPM changed to R0603_1K5_1%_0.1W_100PPM)
 - Capacitors 22uF changed to 20V rating instead of 10V.
 - HWREV resistors (R171-R174) changed to 10k to limit pin input current.
 - R38 and  R54 DNP in 9912 variants as written in note next to them
-- R281 marked as DNP and R282 changed to 0R
 
 - R100 replaced by resistor divider (R100-R102) to lower the signal level coming to FPGA input pin
 - AFE_PWR signal is not used, but power sequence is kept
 - Missing power good signals for P1V2, P2V5 and P5V0A created using comparator
 - Additional PG_Logic.SchDoc created to improve readability.
 - PCB updated according to above desribed modifications
-
-**Release owner:** Mikołaj Sowiński (TS)
-
-**Designers:** 
-- Krzysztof Belewicz (ISE WUT)
-- Marta Fąfara (TS)
-
-**Reviewers:** 
-- Maciej Przybysz (TS)
-- Marta Fąfara (TS)
-
-**Contributors:** 
-- Mikołaj Sowiński (TS)
-
-**Funded by:** 
-- TechnoSystem
 
 
 ---
