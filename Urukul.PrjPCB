@@ -44,7 +44,7 @@ CrossRefPorts=3
 CrossRefCrossSheets=1
 CrossRefSheetEntries=0
 CrossRefFollowFromMainSettings=1
-CurrentVariant=EEM_AD9912
+CurrentVariant=DIOT_AD9910
 
 [Preferences]
 PrefsVaultGUID=
@@ -667,7 +667,7 @@ UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM_AD9910
 AllowFabrication=0
 ParameterCount=0
-VariationCount=395
+VariationCount=394
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -1830,7 +1830,6 @@ Variation391=Designator=T_R99|UniqueId=\JZTGDCJN\AGEZKFCJ\KXBLOKLH|Kind=1|Altern
 Variation392=Designator=T_R98|UniqueId=\JZTGDCJN\AGEZKFCJ\LXLRKCDJ|Kind=1|AlternatePart=
 Variation393=Designator=T_R101|UniqueId=\JZTGDCJN\AGEZKFCJ\UCLISSOL|Kind=1|AlternatePart=
 Variation394=Designator=T_C64|UniqueId=\JZTGDCJN\AGEZKFCJ\PFKHLQVA|Kind=1|AlternatePart=
-Variation395=Designator=R281|UniqueId=\BTRXFAHV\QCLVKXGK\NQKXTZKS|Kind=1|AlternatePart=
 ParamVariationCount=384
 
 [ProjectVariant2]
@@ -1838,7 +1837,7 @@ UniqueId=FF22405C-FE62-488A-BD81-7556D92D9FDF
 Description=EEM_AD9912
 AllowFabrication=0
 ParameterCount=0
-VariationCount=404
+VariationCount=403
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -3010,7 +3009,6 @@ Variation400=Designator=R54A|UniqueId=\1HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 Variation401=Designator=R54B|UniqueId=\2HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 Variation402=Designator=R54C|UniqueId=\3HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 Variation403=Designator=R54D|UniqueId=\4HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
-Variation404=Designator=R281|UniqueId=\BTRXFAHV\QCLVKXGK\NQKXTZKS|Kind=1|AlternatePart=
 ParamVariationCount=384
 
 [ProjectVariant3]
@@ -3018,7 +3016,7 @@ UniqueId=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
 Description=DIOT_AD9910
 AllowFabrication=0
 ParameterCount=0
-VariationCount=360
+VariationCount=359
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -4020,7 +4018,6 @@ Variation356=Designator=T_R99|UniqueId=\JZTGDCJN\AGEZKFCJ\KXBLOKLH|Kind=1|Altern
 Variation357=Designator=T_R98|UniqueId=\JZTGDCJN\AGEZKFCJ\LXLRKCDJ|Kind=1|AlternatePart=
 Variation358=Designator=T_R101|UniqueId=\JZTGDCJN\AGEZKFCJ\UCLISSOL|Kind=1|AlternatePart=
 Variation359=Designator=T_C64|UniqueId=\JZTGDCJN\AGEZKFCJ\PFKHLQVA|Kind=1|AlternatePart=
-Variation360=Designator=R281|UniqueId=\BTRXFAHV\QCLVKXGK\NQKXTZKS|Kind=1|AlternatePart=
 ParamVariationCount=321
 
 [ProjectVariant4]
@@ -4028,7 +4025,7 @@ UniqueId=F7660468-D95A-498F-A493-3FCCA396FE9F
 Description=DIOT_AD9912
 AllowFabrication=0
 ParameterCount=0
-VariationCount=369
+VariationCount=368
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart==Device
 ParamVariation1=ParameterName=Comment|VariantValue==Device
 ParamDesignator1=T_IC3
@@ -5039,7 +5036,6 @@ Variation365=Designator=R54A|UniqueId=\1HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 Variation366=Designator=R54B|UniqueId=\2HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 Variation367=Designator=R54C|UniqueId=\3HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 Variation368=Designator=R54D|UniqueId=\4HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
-Variation369=Designator=R281|UniqueId=\BTRXFAHV\QCLVKXGK\NQKXTZKS|Kind=1|AlternatePart=
 ParamVariationCount=321
 
 [Parameter1]
@@ -5195,22 +5191,12 @@ OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=HP LaserJet Professional P1102
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -5428,13 +5414,15 @@ Configuration4_Item1=CaptionAsName
 Configuration4_Name2=ForceUpdateSettings
 Configuration4_Item2=False
 Configuration4_Name3=General
-Configuration4_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=False|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|UseDirectApi=False|BomSetName=
+Configuration4_Item3=OpenExported=False|AddToProject=False|ReportBOMViolationsInMessages=False|ForceFit=False|NotFitted=False|Database=False|DatabasePriority=False|IncludePcbData=False|IncludeVaultData=True|IncludeCloudData=False|IncludeDocumentData=True|IncludeAlternatives=False|ShowExportOptions=True|TemplateFilename=|TemplateVaultGuid=|TemplateItemGuid=|TemplateRevisionGuid=|BatchMode=5|FormWidth=1200|FormHeight=710|SupplierProdQty=1|SupplierAutoQty=False|SupplierUseCachedPricing=False|SupplierCurrency=USD|SolutionsPerItem=1|SuppliersPerSolution=1|ViewType=0|BomSetName=
 Configuration4_Name4=GroupOrder
 Configuration4_Item4=Comment=True|Footprint=True
 Configuration4_Name5=SortOrder
 Configuration4_Item5=Designator=Up|Comment=Up|Footprint=Up
 Configuration4_Name6=VisibleOrder
-Configuration4_Item6=Comment=120|Description=120|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration4_Item6=Comment=120|Description=120|Manufacturer Part Number=100|Designator=120|Footprint=120|LibRef=120|Quantity=120
+Configuration4_Name7=VisibleOrder_Flat
+Configuration4_Item7=Comment=120|Description=120|Manufacturer Part Number=100|Designator=120|Footprint=120|LibRef=120|Quantity=120
 OutputType5=ComponentCrossReference
 OutputName5=Component Cross Reference Report
 OutputDocumentPath5=
@@ -6183,17 +6171,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ICs And Semiconductors.DbLib/Logic
-ComponentDesignItemID0=S25FL128SAGMFIR01
-ComponentSymbolReference0=S25FL128SAGMFIR01
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=ICs And Semiconductors.DbLib/Analog & Interface
+ComponentDesignItemID0=NCP45520IMNTWG−H
+ComponentSymbolReference0=NCP45520
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Integrated_Library_LOADER.IntLib
-ComponentDesignItemID1=NCP51200MNTXG
-ComponentSymbolReference1=NCP51200MNTXG
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -6207,80 +6189,61 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Arrow Part Number
+ParameterName0=Author
 ParameterUpdate0=1
-ParameterName1=Arrow Price/Stock
+ParameterName1=Bonding
 ParameterUpdate1=1
-ParameterName2=Author
+ParameterName2=Case
 ParameterUpdate2=1
-ParameterName3=Bonding
+ParameterName3=Comment
 ParameterUpdate3=1
-ParameterName4=Case
+ParameterName4=Component Kind
 ParameterUpdate4=1
-ParameterName5=Comment
+ParameterName5=Component Type
 ParameterUpdate5=1
-ParameterName6=Component Kind
+ParameterName6=ComponentHeight
 ParameterUpdate6=1
-ParameterName7=Component Type
+ParameterName7=CreateDate
 ParameterUpdate7=1
-ParameterName8=ComponentHeight
+ParameterName8=Description
 ParameterUpdate8=1
-ParameterName9=CreateDate
+ParameterName9=Device
 ParameterUpdate9=1
-ParameterName10=Datasheet Link
+ParameterName10=Footprint
 ParameterUpdate10=1
-ParameterName11=Description
+ParameterName11=HelpURL
 ParameterUpdate11=1
-ParameterName12=Device
+ParameterName12=LatestRevisionDate
 ParameterUpdate12=1
-ParameterName13=Footprint
+ParameterName13=Library Reference
 ParameterUpdate13=1
-ParameterName14=Height
+ParameterName14=Manufacturer
 ParameterUpdate14=1
-ParameterName15=HelpURL
+ParameterName15=Manufacturer Part Number
 ParameterUpdate15=1
-ParameterName16=LatestRevisionDate
+ParameterName16=Mounted
 ParameterUpdate16=1
-ParameterName17=Library Reference
+ParameterName17=PackageDescription
 ParameterUpdate17=1
-ParameterName18=Manufacturer
+ParameterName18=Part Description
 ParameterUpdate18=1
-ParameterName19=Manufacturer Part Number
+ParameterName19=Part Number
 ParameterUpdate19=1
-ParameterName20=Manufacturer_Name
+ParameterName20=Pin Count
 ParameterUpdate20=1
-ParameterName21=Manufacturer_Part_Number
+ParameterName21=PressFit
 ParameterUpdate21=1
-ParameterName22=Mounted
+ParameterName22=Sense
 ParameterUpdate22=1
-ParameterName23=Mouser Part Number
+ParameterName23=SMD
 ParameterUpdate23=1
-ParameterName24=Mouser Price/Stock
+ParameterName24=Socket
 ParameterUpdate24=1
-ParameterName25=PackageDescription
-ParameterUpdate25=1
-ParameterName26=Part Description
-ParameterUpdate26=1
-ParameterName27=Part Number
-ParameterUpdate27=1
-ParameterName28=Pin Count
-ParameterUpdate28=1
-ParameterName29=PressFit
-ParameterUpdate29=1
-ParameterName30=Sense
-ParameterUpdate30=1
-ParameterName31=SMD
-ParameterUpdate31=1
-ParameterName32=Socket
-ParameterUpdate32=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOIC127P1030X265-16N
+ModelName0=ONSEMI_CASE 506CC
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=SON50P300X300X100-11N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0

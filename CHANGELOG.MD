@@ -150,7 +150,6 @@ T_R6/T_R9 (R0402_1K6_1%_0.0625W_100PPM changed to R0603_1K5_1%_0.1W_100PPM)
 - R100 replaced by resistor divider (R100-R102) to lower the signal level coming to FPGA input pin
 - AFE_PWR signal is not used, but power sequence is kept
 - Missing power good signals for P1V2, P2V5 and P5V0A created using comparator
-- Power Good signals from all power supply sources connected together as one information
 - Additional PG_Logic.SchDoc created to improve readability.
 - PCB updated according to above desribed modifications
 
