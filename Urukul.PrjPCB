@@ -3023,10 +3023,10 @@ ParamDesignator1=T_IC3
 Variation2=Designator=T_IC5|UniqueId=\HFXIRERH\FDGWJAFK|Kind=1|AlternatePart==Device
 ParamVariation2=ParameterName=Comment|VariantValue==Device
 ParamDesignator2=T_IC5
-Variation3=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=0|AlternatePart==Familly
+Variation3=Designator=T_J1|UniqueId=\HFXIRERH\AVKLCJER|Kind=1|AlternatePart==Familly
 ParamVariation3=ParameterName=Comment|VariantValue==Familly
 ParamDesignator3=T_J1
-Variation4=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=0|AlternatePart==Familly
+Variation4=Designator=T_J2|UniqueId=\HFXIRERH\EJIEBMBV|Kind=1|AlternatePart==Familly
 ParamVariation4=ParameterName=Comment|VariantValue==Familly
 ParamDesignator4=T_J2
 Variation5=Designator=CLIP9|UniqueId=\YQRJPEFU\XOUYHKTX|Kind=1|AlternatePart=
