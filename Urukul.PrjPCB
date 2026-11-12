@@ -5039,32 +5039,32 @@ Variation368=Designator=R54D|UniqueId=\4HLOWTXOG\ZOZKKHSA|Kind=1|AlternatePart=
 ParamVariationCount=321
 
 [Parameter1]
-Name=P_copyright_owner
-Value=WUT ISE 2024-2025 · Technosystem 2025-2026
+Name=P_version
+Value=2.0
 
 [Parameter2]
-Name=P_github_link
-Value=https://github.com/sinara-hw/Urukul
+Name=P_template_version
+Value=1.4
 
 [Parameter3]
-Name=P_release_designers
-Value=Krzysztof Belewicz (WUT), Marta Fąfara (TS)
+Name=P_release_reviewers
+Value=Marta Fąfara (TS), Maciej Przybysz (TS)
 
 [Parameter4]
 Name=P_release_owner
 Value=Mikołaj Sowiński (TS)
 
 [Parameter5]
-Name=P_release_reviewers
-Value=Marta Fąfara (TS), Maciej Przybysz (TS)
+Name=P_release_designers
+Value=Krzysztof Belewicz (WUT), Marta Fąfara (TS)
 
 [Parameter6]
-Name=P_template_version
-Value=1.4
+Name=P_github_link
+Value=https://github.com/sinara-hw/Urukul
 
 [Parameter7]
-Name=P_version
-Value=2.0
+Name=P_copyright_owner
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Configuration1]
 Name=Sources
@@ -5191,22 +5191,12 @@ OutputName20=PADS ASCII Netlist
 OutputDocumentPath20=
 OutputVariantName20=
 OutputDefault20=0
-OutputType21=XSpiceNetlist
-OutputName21=Mixed Sim Netlist
-OutputDocumentPath21=
-OutputVariantName21=
-OutputDefault21=0
 
 [OutputGroup2]
 Name=Simulator Outputs
 Description=
 TargetPrinter=HP LaserJet Professional P1102
 PrinterOptions=Record=PrinterOptions|Copies=1|Duplex=1|TrueTypeOptions=3|Collate=1|PrintJobKind=1|PrintWhat=1
-OutputType1=AdvSimNetlist
-OutputName1=Mixed Sim
-OutputDocumentPath1=
-OutputVariantName1=
-OutputDefault1=0
 
 [OutputGroup3]
 Name=Documentation Outputs
@@ -5606,7 +5596,7 @@ Type2=1
 Type3=1
 Type4=1
 Type5=1
-Type6=0
+Type6=1
 Type7=1
 Type8=1
 Type9=1
@@ -5634,7 +5624,7 @@ Type30=1
 Type31=1
 Type32=1
 Type33=1
-Type34=0
+Type34=1
 Type35=1
 Type36=1
 Type37=1
@@ -5785,7 +5775,7 @@ Type8=1
 Type9=1
 Type10=1
 Type11=1
-Type12=1
+Type12=0
 Type13=1
 Type14=1
 Type15=1

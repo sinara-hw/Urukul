@@ -7,7 +7,7 @@ All notable changes to the Urukul-DIOT are documented in this file.
 **Release owner:** Mikołaj Sowiński (TS)
 
 **Designers:** 
-- Krzysztof Belewicz (ISE WUT)
+- Krzysztof Belewicz (WUT ISE)
 - Marta Fąfara (TS)
 
 **Reviewers:** 
@@ -18,15 +18,15 @@ All notable changes to the Urukul-DIOT are documented in this file.
 - Mikołaj Sowiński (TS)
 
 **Funded by:** 
-- TechnoSystem
-
+- WUT ISE
+- Technosystem
 
 All schematic files updated according to DIOT template.
 Change list in respect to the previous revision:
 
 project parameters:
 -added link to repository
--added version number 1.5.6
+-added version number 2.0
 
 #88 LM75AUNN/NOPB updated along with DIOT template sync
 #90 P4 removed along with DIOT template sync
