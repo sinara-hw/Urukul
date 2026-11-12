@@ -1,0 +1,1 @@
+EEM_LVDS=LVDS_P[0..15],LVDS_N[0..15]
